@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+target/
+dist/
+build/
+*.class
+*.jar
+*.war
+
+# Environment & Secrets (only commit .env.example)
+.env
+.env*.local
+*.pem
+*.key
+
+# IDE & Editors
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & Temporary files
+*.log
+logs/
+tmp/
+_tmp_*
+*.tsbuildinfo
+
+# Internal Prompts & Planning Documents (Strictly excluded)
+*.pdf
+*Master*Build*Prompt*
+*Execution*Report*
+*planning*
+*notes*.txt
+*scratch*

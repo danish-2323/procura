@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:procura}
+    username: ${DB_USER:procura_app}
+    password: ${DB_PASSWORD:procura_secret_change_me}
+    driver-class-name: org.postgresql.Driver
+
+logging:
+  level:
+    com.procura: DEBUG
+    org.springframework.security: INFO
+    org.hibernate.SQL: INFO

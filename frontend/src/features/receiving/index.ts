@@ -1,0 +1,2 @@
+// Feature: Receiving
+export {};
