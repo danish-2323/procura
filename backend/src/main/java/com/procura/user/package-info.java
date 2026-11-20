@@ -1,4 +1,4 @@
 @org.springframework.modulith.ApplicationModule(
-    allowedDependencies = {"shared"}
+    type = org.springframework.modulith.ApplicationModule.Type.OPEN
 )
 package com.procura.user;
